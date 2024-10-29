@@ -9,7 +9,7 @@ resource "aws_instance" "amazon-linux-instance" {
   key_name = "newkey"
   vpc_security_group_ids = [aws_security_group.default.id]
   tags = {
-    Name = "jenkins-deployment-server" 
+    Name = "jenkins-deployment-server-2" 
   }
 }
 
